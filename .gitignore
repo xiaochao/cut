@@ -1,0 +1,11 @@
+*.pyc
+.idea
+run.log
+.DS_Store
+secken-web.log
+*.jpg
+*.png
+*.svg
+*.png.old
+sessions
+config.ini
