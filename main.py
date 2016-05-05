@@ -16,10 +16,10 @@ pngpaste = '/usr/local/bin/pngpaste'
 if len(sys.argv) == 2:
     pngpaste = sys.argv[1]
 
-ak = 'ylQC8EgbJjYVLBChocIRmkrAfslPi9tuwDU33kSF'
-sk = '_q0uF0hKPDWWUz2yyToS8WDfKQCtu3bEog-m38fr'
-domain = 'http://7xpx6h.com1.z0.glb.clouddn.com'
-bucket = 'mess'
+ak = YOUR_AK 
+sk = YOUR_SK
+domain = YOUR_DOAMIN # 例如:'http://7xpx6h.com1.z0.glb.clouddn.com'
+bucket = YOUR_BUCKET # 空间名称
 q = Auth(ak, sk)
 
 # check pngpaste is exists
