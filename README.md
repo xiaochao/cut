@@ -8,7 +8,7 @@
 * 在账号设置页面，找到密钥标签，获取到AK和SK
 * 新建一个空间，在空间设置页面，获取到您的域名
 * 打开main.py，替换AK和SK，替换bucket为你的空间名，替换domain为你的域名
-* 运行main.py，如python main.py
+* 运行main.py，如python main.py，可以传一个参数，标记pngpaste绝对路径
 * 按住command+ctrl+shift+4键，进行截图
 * 截图完成后，使用command+v即可以获取到url
 
